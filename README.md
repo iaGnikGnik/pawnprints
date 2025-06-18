@@ -20,7 +20,7 @@
 2. Install it with:
 
 ```bash
-sudo dpkg -i ~/Downloads/pawnprints_1.0.0.deb
+sudo dpkg -i ~/Downloads/pawnprints_1.0.1.deb
 
     Launch it from your App Menu or by typing:
 
