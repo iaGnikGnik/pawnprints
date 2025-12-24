@@ -43,12 +43,44 @@ PawnPrints parses your PGN collection, isolates positions a selected player hits
     Review your tendencies and improve
 
 Ideal for use with SCID, lichess.org studies, or opening prep.
-📬 Contact & Support
 
-Maintainer: King King
+---
+
+## PawnPrints v2.0.0
+
+PawnPrints v2.0 is the first full desktop application release of PawnPrints.
+
+It enables player style analysis based on recurring board positions, optional
+engine enrichment, and comparison of player tendencies across PGNs.
+
+##Features
+- Player style analysis using common positions
+- Optional Stockfish engine analysis
+- Compare mode (common positions across two PGNs)
+- Download games from:
+    - Lichess
+    - Chess.com
+    - The Week In Chess (TWIC)
+- Export analyzed and flagged PGNs
+- Portable Linux AppImage (no installation required)
+
+##Running (Linux AppImage)
+chmod +x PawnPrints-v2.0.0-x86_64.AppImage
+./PawnPrints-v2.0.0-x86_64.AppImage
+
+Known Issues
+After closing a PGN and loading a new one, exporting results without restarting the application may export results from a previous analysis session.
+Restarting PawnPrints resolves the issue.
+This will be fixed in a future release.
+
+📬 Contact & Support
+Maintainer
+
+King King
 📧 kkingpublishing@gmail.com
 
 Feel free to open an issue for bugs or feature requests.
-🔒 License
+
+License
 
 All rights reserved — for personal and educational use only.
